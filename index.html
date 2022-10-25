@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
+  <head class="font">
     <meta charset="UTF-8">
     <title>CSS Positioning</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
 
-  <body>
-    <header>
-      <h1>CSS Positioning</h1>
+  <body class="font">
+    <header id="top line">
+      <h3>Shop</h3>
+      <h3>About</h3>
+      <h3>Contact</h3>
     </header>
 
     <main>
       <section>
-        <h2>Square 1: Relative Position</h2>
-        <div class="container">
-          <img src="./assets/images/image-1.png" alt="box with number 1"/>
-          <img id="relative-box-2" src="./assets/images/image-2.png" alt="box with number 2"/>
-          <img src="./assets/images/image-3.png" alt="box with number 3"/>
+        <h2>Featured Product</h2>
+        <div class="product-line">
+          <img class="photo" src="./assets/retarded-bat.jpeg" alt="bat" width="200" height="200"/>
+          <img class="photo" src="./assets/monkey.jpeg" alt="monkey" width="200" height="200"/>
+          <img class="photo" src="./assets/turtle.jpeg" alt="turtle" width="200" height="200"/>
+        </div>
+      </section>
+
+      <section class="cell">
+        <h3>About Us</h3>
+        <p>The Mitochondria is the powerhouse of the cell.</p>
+          <ul>
+              <li>Its a fact!</li>
+              <li>That means you cannot wish it away.</li>
+              <li>Cry about it.</li>
+          </ul>
         </div>
       </section>
 
       <section>
-        <h2>Square 2: Absolute Position</h2>
-        <div class="container absolute-container">
-          <img src="./assets/images/image-1.png" alt="box with number 1"/>
-          <img id="absolute-box-2"src="./assets/images/image-2.png" alt="box with number 2"/>
-          <img src="./assets/images/image-3.png" alt="box with number 3"/>
-        </div>
+        <button class="Contact">
+                type="button"
+            contact
+        </button>
+      </section>
+
+      <section>
+        <h3> Contact</h3>
+
       </section>
     </main>
   </body>
